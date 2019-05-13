@@ -13,7 +13,7 @@ Inspired by [BERT-for-Chinese-Question-Answering](https://github.com/eva-n27/BER
 
 * Train&Prediction
 
-```python
+```
 python run_drcd.py \
   --vocab_file=$BERT_MODEL_DIR/vocab.txt \
   --bert_config_file=$BERT_MODEL_DIR/bert_config.json \
@@ -33,7 +33,7 @@ python run_drcd.py \
 
 * Evaluate
 
-```python
+```
 pyton eva.py $DRCD/DRCD_testing.json $OUTPUT_DIR/prediction.json
 ```
 
