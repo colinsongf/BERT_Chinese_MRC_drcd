@@ -39,4 +39,7 @@ pyton eva.py $DRCD/DRCD_testing.json $OUTPUT_DIR/prediction.json
 
 ### 结果
 
+* EM: 85.65702834239909
+* F1: 91.78050628879733
+
 ![result](https://ws4.sinaimg.cn/large/006tNc79gy1g2zldnqvc6j30vg04wgmo.jpg)
